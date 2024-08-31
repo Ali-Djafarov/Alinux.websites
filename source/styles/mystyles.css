@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
+
+body {
+  font-family: Michroma, serif;
+  background: #3f5efb;
+  background: linear-gradient(90deg, #2749f5 0%, #f02049 100%);
+}
+p {
+    color: aqua;
+}
+a {
+    text-decoration: none;
+}
+.nav-link {
+  color: aqua;
+}
+.navbar-nav .nav-link.active {
+  color: rgb(212, 212, 212);
+}
+.navbar-brand img {
+  width: 100px;
+}
+.navbar-toggler {
+  background-color: gray;
+}
+.card img {
+  min-width: 300px;
+  min-height: 550px;
+  max-width: 1200px;
+  max-height: 550px;
+}
+
+.sidebar {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #2749f5 0%, #f02049 100%);
+}
+.card {
+  background: linear-gradient(270deg, #2445e6 0%, #eb3d60 100%);
+  color: white;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+.row img {
+  height: 500px;
+}
+
+.slide-text {
+  color: white;
+  margin: auto auto;
+  padding-left: 60px;
+}
+footer {
+  background: linear-gradient(270deg, #505050 0%, #8a8a8a 100%);
+}
+.footer-text {
+  color: white;
+  margin: auto auto;
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+.media-links > img {
+  margin-inline: 1em;
+}
+
+.carousel-item img {
+    margin-top: 20px;
+}
